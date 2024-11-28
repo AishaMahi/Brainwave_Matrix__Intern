@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result</title>
+    <link rel="stylesheet" href="/static/style1.css">
+</head>
+<body class="container">
+    <h1 style="color: #172d17;">File Analysis Result:</h1> <br\>
+    <p><strong>File Hash:</strong><br> {{ file_hash }} </p> 
+    {% if is_malware %}
+    <p style="color: red;">⚠️ This file is identified as malware!</p>
+    {% else %}
+    <p style="color: #294e29;">✅ This file is clean.</p>
+    {% endif %}
+    <a href="/">Back to Upload</a>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1e1f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+}
+
+/* Neon Circle */
+.neon-circle {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #00ffff, transparent);
+    box-shadow: 0 0 60px #00ffff, 0 0 100px #00ffff;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
+
+/* Form Styles */
+.file-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+/* Input Field */
+.input-field input[type="file"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #25292b;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.input-field input[type="file"]::file-selector-button {
+    background-color: #00ffff;
+    color: #1a1e1f;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #00ffff;
+}
+
+.input-field input[type="file"]::file-selector-button:hover {
+    background-color: #009999;
+}
+
+/* Button Styles */
+.btn {
+    background-color: #00ffff;
+    color: #1a1e1f;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+.btn:hover {
+    background-color: #009999;
+    box-shadow: 0 0 25px #009999;
+}

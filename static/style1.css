@@ -1,0 +1,93 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   font-weight: bold;
+}
+
+/* Body Styling */
+body.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    background: radial-gradient(circle at center, #009999, #000);
+    color: #171616;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1d1a1a;
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dacccc;
+    text-align: center;
+}
+
+/* Malware Message */
+p[style="color: red;"] {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+p[style="color: green;"] {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* File Hash Styling */
+p strong {
+    color: #87CEEB; /* Highlight for the hash */
+}
+
+/* Back to Upload Link */
+a {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #d8e6d8; /* Green color */
+    text-decoration: none;
+    border: 1px solid #e4ece4;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Container Box Styling 
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
